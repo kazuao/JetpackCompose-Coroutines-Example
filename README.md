@@ -11,7 +11,7 @@ compileOptionsのJavaVersion.VERSION_17
 jvmTargetも17
 
 app -> project
-new > directry > buildSrc > build.gradle.kts
+new > directry > buildSrc > build.gradle.kts…
 いろいろ
 
 new buildSrc/src/main/java/
