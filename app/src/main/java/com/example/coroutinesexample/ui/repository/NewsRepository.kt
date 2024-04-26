@@ -27,6 +27,5 @@ class NewsRepository @Inject constructor(
         }.catch { e ->
             Log.d("NewsRepository", e.localizedMessage)
             emit(ResourceState.Error(e.localizedMessage ?: "Some error in flow"))
-        }
-    }
+        } }
 }
